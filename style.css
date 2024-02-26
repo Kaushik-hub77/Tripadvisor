@@ -1,0 +1,899 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    font-family: "Anta", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    border-bottom: solid 1px black;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+}
+
+.navbar__s1 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.navbar__s1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar__s2 {
+    display: flex;
+    gap: 15px;
+    background-color: white;
+}
+
+.navbar__s3 button {
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.navbar__s3 button:hover {
+    box-shadow: black 0px 5px 27px;
+}
+
+.navbar__s1__h1 {
+    margin-bottom: 40px;
+}
+
+.navbar__s4{
+    display: none;
+}
+
+.Where {
+    text-align: center;
+
+}
+
+.where__down {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.where__down__s1 {
+    width: 30px;
+    height: 30px;
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.where__down__s1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.where__down__s1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    border: solid 2px black;
+    box-shadow: black;
+    border-radius: 30px;
+    padding: 20px;
+    width: 750px;
+    margin-left: 210px;
+    margin-bottom: 100px;
+    box-shadow: black 0px 3px 15px;
+    border: none;
+    position: relative;
+}
+
+.search input {
+    border: none;
+    width: 200px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search__button button {
+    position: absolute;
+    right: 20px;
+    border-radius: 60px;
+    letter-spacing: 2px;
+    padding: 15px;
+    top: 5px;
+    border: none;
+    background-color: greenyellow;
+}
+
+.search__button button:hover {
+    background-color: wheat;
+    transition: 0.5s;
+}
+
+.sale-image {
+    position: relative;
+    background-color: grey;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+
+.sale-image img {
+    height: 500px;
+    margin-left: 800px;
+
+}
+
+.sale-image__offer {
+    position: absolute;
+    border: solid 2px grey;
+    width: 200px;
+    top: 50px;
+    left: 150px;
+
+}
+
+.sale-image__offer button {
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: orangered;
+    box-shadow: black 0px 3px 20px;
+    margin-top: 10px;
+}
+
+.sale-image__offer button:focus {
+    outline: none;
+}
+
+.aw-choices {
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.destination1 {
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 300px;
+    gap: 20px;
+}
+
+.destination1__img {
+    position: relative;
+}
+
+.destination1__img img {
+    width: 250px;
+    height: 250px;
+    border: solid 1px black;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}
+
+.destination1__img img:hover {
+    opacity: 0.6;
+}
+
+.cap {
+    position: absolute;
+    color: whitesmoke;
+    bottom: 0px;
+}
+
+
+
+.recent {
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.recent__s1 button {
+    padding: 20px;
+    border: double 1px grey;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    background-color: white;
+    color: black;
+    gap: 10px;
+}
+
+.recent__s1 button:hover {
+    color: white;
+    background-color: black;
+}
+
+.madras {
+    padding-left: 50px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.madras-container {
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.madras-container__s1 {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.madras-container__s1 img {
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}
+
+.madras-container__s1 img:hover {
+    opacity: 0.6;
+}
+
+.madras-container__s1 p {
+    padding-bottom: 70px;
+    font-size: 12px;
+}
+
+.Madraspt2 {
+    margin-top: 200px;
+    padding-left: 50px;
+    margin-bottom: 15px;
+}
+
+.Madraspt2-container {
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Madraspt2-container__s1 {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.Madraspt2-container__s1 img {
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}
+
+.Madraspt2-container__s1 img:hover {
+    opacity: 0.6;
+}
+
+.Madraspt2-container__s1 p {
+    padding-bottom: 70px;
+    font-size: 12px;
+}
+
+.Asian {
+    padding-left: 50px;
+    margin-top: 200px;
+}
+
+.Asian-Container {
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Asian-Container__s1 {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.Asian-Container__s1 img {
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}
+
+.Asian-Container__s1 img:hover {
+    opacity: 0.6;
+}
+
+.cap1 {
+    position: absolute;
+    color: whitesmoke;
+    bottom: 0px;
+}
+
+.Explore {
+    padding-left: 70px;
+    background-color: bisque;
+    padding-top: 50px;
+
+}
+
+.Exlore__image {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: bisque;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.Exlore__image__s1 {
+    width: 350px;
+    height: 250px;
+    position: relative;
+}
+
+.heart__image {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.heart__image:hover {
+    opacity: 0.6;
+}
+
+.Exlore__image__s1 img {
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+    border-radius: 20px;
+    border: none;
+}
+
+.Exlore__image__s1 img:hover {
+    opacity: 0.6;
+}
+
+.dream {
+    margin-top: 30px;
+    padding: 50px;
+}
+
+.dream__container {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    padding-left: 50px;
+    flex-wrap: wrap;
+
+}
+
+
+.dream__container__s1 {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.ooru {
+    position: absolute;
+    bottom: 0px;
+    color: whitesmoke;
+    left: 3px;
+}
+
+.dream__container__s1 img {
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}
+
+.Foreign {
+    padding-left: 50px;
+}
+
+.Foreign-Images {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.Foreign-Images__s1 {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.Fbi {
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    color: whitesmoke;
+}
+
+.Foreign-Images__s1 img {
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}
+
+.Rent {
+    padding-left: 50px;
+    margin-top: 70px;
+    gap: 10px;
+    width: 200px;
+}
+
+.Rent__container {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-right: 70px;
+}
+
+.Rent__container__s1 {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 40px;
+}
+
+.Rent__container__s1 img {
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+    border: none;
+    border-radius: 20px;
+}
+
+.Ad-Image {
+    margin-top: 200px;
+    background-color: grey;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.Ad-Image__container {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 800px;
+    top: 20px;
+}
+
+.Ad-Image__container img {
+    width: 100%;
+    height: 100%;
+}
+
+.Ad-Image__containerpt2 {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.Ad-Image__containerpt2 h2,
+p {
+    width: 200px;
+}
+
+.Ad-Image__containerpt2 img {
+    height: 100%;
+    width: 100%;
+    border: solid 2px orange;
+    border-radius: 50px;
+    background-color: orange;
+}
+
+.Ad-Image__containerpt3 {
+    position: absolute;
+    top: 290px;
+    left: 40px;
+}
+
+.Ad-Image__containerpt3 button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    box-shadow: 6px 0px 27px black;
+}
+
+.Footer {
+    margin-top: 70px;
+    padding-left: 40px;
+    display: flex;
+    gap: 10px;
+    background-color: bisque;
+    padding: 20px;
+    padding-bottom: 250px;
+    position: relative;
+}
+
+.Footer__s4 {
+    margin-left: 250px;
+    width: 200px;
+    font-size: 10px;
+}
+
+.trippy {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 280px;
+    left: 60px;
+    display: flex;
+}
+
+.trippy_p {
+    font-size: 10px;
+    align-items: center;
+    position: absolute;
+    top: 7px;
+    left: 40px;
+    bottom: 0px;
+}
+
+.trippy img {
+    width: 100%;
+    height: 100%;
+}
+
+.trippy__con {
+    position: absolute;
+    top: 320px;
+    left: 60px;
+    display: flex;
+}
+
+.trippy__con p {
+    display: flex;
+    width: 900px;
+    gap: 10px;
+    margin-left: 30px;
+    position: absolute;
+    bottom: 6px;
+    left: 3px;
+}
+
+.trirem {
+    width: 250px;
+    position: absolute;
+    top: 5px;
+    left: 27px;
+    gap: 20px;
+}
+
+.endtitle p {
+    position: absolute;
+    font-size: 10px;
+    top: 350px;
+    left: 60px;
+    width: 800px;
+}
+
+.dhuttu {
+    position: absolute;
+    bottom: 140px;
+    right: 80px;
+}
+
+.dhuttu,
+.dhuttu__s1,
+.dhuttu__s2 {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.icons {
+    position: absolute;
+    right: 90px;
+    display: flex;
+    bottom: 120px;
+    gap: 10px;
+}
+
+@media screen and (max-width:600px) {
+    *{
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+
+
+    }
+    
+    body {
+        font-size: 10px;
+    }
+
+    .navbar__s1 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .navbar__s3 {
+        display: none;
+    }
+
+    .navbar__s2 {
+        display: none;
+    }
+
+    .search {
+        width: 400px;
+        margin-left: 30px;
+    }
+
+    .where__down__s1 {
+        width: 20px;
+        height: 20px;
+        gap: 5px;
+        margin-left: 17px;
+        justify-content: center;
+    }
+
+    .sale-image img {
+        height: 200px;
+        margin-left: 50px;
+        top: 200px;
+    }
+
+    .aw-choices{
+        justify-content: center;
+        padding-left: 100px;
+    }
+
+    .destination1 {
+        justify-content: center;
+        padding-left: 100px;
+        flex-wrap: wrap;
+    }
+
+    .destination1__img {
+        width: 180px;
+        height: 180px;
+        gap: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin: 15px;
+        padding-left: 0px;
+    }
+
+    .destination1__img img {
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .cap {
+        top: 160px;
+    }
+
+    .recent {
+        display: none;
+    }
+    
+    .madras{
+        justify-content: center;
+        padding-left: 150px;
+        font-size: 12px;
+    }
+    .madras-container {
+        gap: 10px;
+    }
+
+    .madras-container__s1{
+        justify-content: center;
+        padding-left: 100px;
+    }
+
+    .madras-container__s1 img {
+        flex-wrap: 300px;
+        background-color: white;
+        flex-basis: 50%;
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .madras-container__s1 h3 {
+        width: 200px;
+    }
+
+    .Madraspt2{
+        justify-content: center;
+        padding-left: 140px;
+        position: relative;
+        margin-bottom: 30px;
+        top: 20px;
+        font-size: 12px;
+    }
+
+    
+
+    .Madraspt2-container__s1{
+        justify-content: center;
+        padding-left: 90px;
+        gap: 10px;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        padding-bottom: 70px;
+    }
+
+    .Madraspt2-container__s1 img{
+        width: 100%;
+        height: 100%;
+    }
+  
+   .Asian{
+    font-size: 12px;
+    padding-left: 5px;
+
+   }
+
+    .Asian-Container{
+        flex-wrap: wrap;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
+
+    .Asian-Container__s1{
+        width: 150px;
+        height: 150px;
+   }
+
+   .Asian-Container__s1 img{
+    width: 100%;
+    height: 100%;
+   }
+  
+   .Exlore__image__s1{
+     padding-bottom: 50px;
+   }
+
+   .dream{
+    padding-left: 120px;
+    font-size: 12px;
+   }
+
+   .dream__container{
+     padding-left: 120px;
+
+   }
+
+   .Foreign{
+    font-size: 12px;
+
+   }
+   
+
+   .Foreign-Images__s1{
+    width: 150px;
+    height: 150px;
+    padding-left: -5px;
+    padding-right: 5px;
+}
+
+   .Foreign-Images__s1 img{
+    width: 100%;
+    height: 100%;
+    
+   }
+
+   .Rent{
+    display: none;
+   }
+
+   .Rent__container__s1{
+    display: none;
+   }
+
+
+   .Footer{
+    width: fit-content;
+    position: relative;
+    width: 450px;
+   }
+
+   .Footer__s4{
+    display: none;
+   }
+
+   .Footer__s3{
+    margin-right: 150px;
+    position: absolute;
+    left: 350px;
+   }
+
+   .Footer__s2{
+    position: absolute;
+    left: 200px;
+   }
+
+   .dhuttu{
+    justify-content: start;
+    margin-left: 400px;
+    display: flex;
+   }
+
+
+
+   .endtitle{
+    width: 100px;
+    font-size: 5px;
+    background-color: bisque;
+    position: absolute;
+    bottom: 370px;
+    font-size: 5px;
+   }
+
+   .icons{
+    left: 320px;
+    position: absolute;
+    top: 280px;
+    right: 200px;
+   }
+
+   .Ad-Image__container img{
+    display: none;
+   }
+
+   .navbar__s4{
+    display: block;
+   }
+}
